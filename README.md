@@ -33,6 +33,8 @@ The application is invoked by using: node index.js in terminal
 
 Users will follow a series of prompts to gather input on their program for use in a README file. A video with step-by-step instructions can be found here:
 
+[instructional video](https://drive.google.com/file/d/1M0NRZ0EQb-rkjptiDr-0ZTfz6CRe6pdj/view)
+
 ## Contribution
 
 Not Applicable 
