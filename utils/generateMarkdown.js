@@ -9,12 +9,12 @@ const renderLicenseBadge = (license) =>
 // If there is no license, return an empty string
 // const renderLicenseLink = (license) => 
 
-
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-const renderLicense = (license) =>
-  license !== "" ?
-  `![${answers.license}](.assets/${answers.license}.txt)`:'none';
+// const renderLicense = (license) =>
+  
+//   license !== "" ?
+//   `![${answers.license}](assets/${answers.license}.txt)`:'none';
 
 // TODO: Create a function to generate markdown for README
 const generateREADME = (answers) =>{
@@ -63,11 +63,10 @@ ${answers.testing}
 ## Licenses 
 ${renderLicenseBadge(answers.license)}
 
-${renderLicense(answers.license)}
 
 ## Questions
 
-If you have any questions, please contact ${answers.name} by email or on GitHub: 
+If you have any questions, please contact ${answers.user} by email or on GitHub: 
 
 [${answers.email}](mailto:${answers.email}) 
 

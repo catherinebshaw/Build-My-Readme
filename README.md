@@ -22,7 +22,7 @@
 
 ## Description
 
-Generates a pre-formatted README file from answers to a few questions.
+Build My README generates a pre-formatted README markdown file from answers to a series of prompted questions delivered through node.js.
 
 ## Installation
 
@@ -30,24 +30,23 @@ Not Applicable
 
 ## Usage
 
-Users will be taken through a series of questions on node.js. A professional and consistent README.md file is created using the responses. 
+Users are prompted through a series of questions on Node.ns. Their input is used to populate a professional, consistent and thorough README file. A quick and complete job done in a fraction of the time it would normally take to create and format a README document. 
 
 ## Contribution
 
-Not Applicable
+Not Applicable 
 
 ## Test Instructions
 
 Not Applicable
 
 ## Licenses 
-![Github license](https://img.shields.io/badge/license-None-brightgreen.svg)
+![Github license](https://img.shields.io/badge/license-MIT-brightgreen.svg)
 
-[None](.assets/None.txt) 
 
 ## Questions
 
-If you have any questions, please contact undefined by email or on GitHub: 
+If you have any questions, please contact Catherine Shaw by email or on GitHub: 
 
 [catherinebshaw@sympatico.ca](mailto:catherinebshaw@sympatico.ca) 
 
@@ -55,5 +54,5 @@ If you have any questions, please contact undefined by email or on GitHub:
 
 ## Mock-Up 
 
-![Mock Up](no)
+![Mock Up](assets/screen-shot.png)
 

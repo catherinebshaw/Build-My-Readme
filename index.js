@@ -2,61 +2,6 @@ const inquirer = require('inquirer')
 const fs = require('fs')
 const generateREADME = require("./utils/generateMarkdown")
 
-//function generate README(answers)
-
-// const generateREADME = (answers) =>{
-//     return `# ${answers.title}
-  
-//   ## Introduction  
-  
-//   ${answers.introduction}
-  
-//   ## Table of Contents
-  
-//   *[Description](#Description)
-  
-//   *[Installation](#Installation)
-  
-//   *[Usage](#Usage)
-  
-//   *[Contribution Guidelines](#Contributing)
-  
-//   *[Test Instructions](#testing)
-  
-//   *[Licenses](#licenses)
-  
-//   *[Mock Up](#Mockup)
-  
-//   *[Live Site](#LiveSite)
-  
-//   ## Description
-  
-//   ${answers.description}
-  
-//   ## Installation
-  
-//   ${answers.installation}
-  
-//   ## Usage
-  
-//   ${answers.usage}
-  
-//   ## Test Instructions
-  
-//   ${answers.testing}
-  
-//   ## Licenses 
-  
-//   ${answers.license}
-  
-//   ## Mock Up 
-  
-//   ![Mock Up](${answers.mockup})
-  
-//   ## Live Site
-//   [${answers.title}](${answers.link})
-//   `;
-//   }
 
 async function main() {
 console.log( ` getting input  `)
@@ -108,7 +53,7 @@ console.log( ` getting input  `)
     },
     {  
         type: 'input',
-        name: 'name',
+        name: 'user',
         message: 'What is your first and last name?'
     },
     {  
@@ -124,14 +69,14 @@ console.log( ` getting input  `)
 ])
   
            
-console.log(` our response is`, response)
-//add responses to readme file
-const output = generateREADME ( response )
-//write to a file(writeFileSync)
-fs.writeFileSync('readme.md', output)
+    console.log(` our response is`, response)
+    //add responses to readme file
+    const output = generateREADME ( response )
+    //write to a file(writeFileSync)
+    fs.writeFileSync('readme.md', output)
 
 }
 
-    main()
+main()
     
     
