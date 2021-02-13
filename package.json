@@ -1,0 +1,23 @@
+{
+  "name": "build-my-readme",
+  "version": "1.0.0",
+  "description": "Generates a professional Readme file every time",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catherinebshaw/Build-My-Readme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/catherinebshaw/Build-My-Readme/issues"
+  },
+  "homepage": "https://github.com/catherinebshaw/Build-My-Readme#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "inquirer": "^7.3.3"
+  }
+}
