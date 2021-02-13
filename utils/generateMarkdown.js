@@ -19,6 +19,7 @@ const renderLicenseBadge = (license) =>
 // TODO: Create a function to generate markdown for README
 const generateREADME = (answers) =>{
   return `# ${answers.title}
+  ${renderLicenseBadge(answers.license)}
 
 ## Table of Contents
 
@@ -63,6 +64,9 @@ ${answers.testing}
 ## Licenses 
 ${renderLicenseBadge(answers.license)}
 
+Users of this application are asked to comply with the terms of the ${answers.license} license. Additional information on the ${answers.license} license can be found at the link below.
+
+[Open Source](https://opensource.org/licenses)
 
 ## Questions
 
@@ -74,7 +78,7 @@ If you have any questions, please contact ${answers.user} by email or on GitHub:
 
 ## Mock-Up 
 
-![Mock Up](https://github.com/${answers.username}/${answers.repository}/blob/main/${answers.mockup})
+![Mock Up](${answers.mockup})
 
 `;
 }
