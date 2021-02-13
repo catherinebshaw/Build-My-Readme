@@ -70,11 +70,11 @@ If you have any questions, please contact ${answers.user} by email or on GitHub:
 
 [${answers.email}](mailto:${answers.email}) 
 
-[GitHub](https://github.com/${answers.github})
+[GitHub](https://github.com/${answers.username})
 
 ## Mock-Up 
 
-![Mock Up](${answers.mockup})
+![Mock Up](https://github.com/${answers.username}/${answers.repository}/blob/main/${answers.mockup})
 
 `;
 }
