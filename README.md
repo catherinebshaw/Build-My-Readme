@@ -1,4 +1,5 @@
 # Build My Readme
+  ![Github license](https://img.shields.io/badge/license-BSD%202.0-brightgreen.svg)
 
 ## Table of Contents
 
@@ -22,27 +23,30 @@
 
 ## Description
 
-Build My Readme generates a pre-formatted README markdown file from the answers that users provide to a series of prompted questions delivered through node.js.
+Build My Readmen uses the inquirer package of node project manager to gather information necessary to generate a professional README markdown file.
 
 ## Installation
 
-Not Applicable
+The application is invoked by using: node index.js in terminal
 
 ## Usage
 
-Users are guided by prompts though a series of questions on node.js. The input users provide is used to populate a professional, consistent and thorough README file for their application or project. Build My Readme creates a quick and complete solution in a fraction of the time a user would normally spend creating and formatting a readme document. 
+Users will follow a series of prompts to gather input on their program for use in a README file. A video with step-by-step instructions can be found here:
 
 ## Contribution
 
-Not Applicable
+Not Applicable 
 
 ## Test Instructions
 
-Not Applicable
+Not Applicable 
 
 ## Licenses 
 ![Github license](https://img.shields.io/badge/license-BSD%202.0-brightgreen.svg)
 
+Users of this application are asked to comply with the terms of the BSD 2.0 license. Additional information on the BSD 2.0 license can be found at the link below.
+
+[Open Source](https://opensource.org/licenses)
 
 ## Questions
 
@@ -54,5 +58,5 @@ If you have any questions, please contact Catherine Shaw by email or on GitHub:
 
 ## Mock-Up 
 
-![Mock Up](https://github.com/catherinebshaw/Build-My-Readme/blob/main/assets/screen-shot.png)
+![Mock Up](assets/screen-shot.png)
 
