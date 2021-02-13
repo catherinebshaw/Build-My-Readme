@@ -58,5 +58,5 @@ If you have any questions, please contact Catherine Shaw by email or on GitHub:
 
 ## Mock-Up 
 
-![Mock Up](assets/screen-shot.png)
+![Mock Up](https://github.com/catherinebshaw/Build-My-Readme/blob/main/Assets/screen-shot.png)
 
